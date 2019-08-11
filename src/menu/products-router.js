@@ -14,7 +14,7 @@ class ProductsRouter extends React.Component {
             <div>
                 <Switch>
                     <Route exact path='/products' component={Products}/>
-                    <Route exact path='/products/:id' component={Product}/>
+                    <Route exact path='/products/:id?' component={Product}/>
                 </Switch>
 
             </div>

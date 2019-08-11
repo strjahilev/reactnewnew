@@ -1,4 +1,5 @@
 import React from 'react';
+import Form from "./form";
 
 class Company extends React.Component{
     constructor(props){
@@ -9,6 +10,7 @@ class Company extends React.Component{
         return (
             <div>
                 <h1>Компания Unlimited приветствует Вас!</h1>
+                <Form name="" age="" />
             </div>
         );
     }

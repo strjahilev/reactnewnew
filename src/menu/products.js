@@ -15,9 +15,9 @@ class Products extends React.Component{
             <div>
 
                 <ul>
-                    <li><NavLink to='/products/1'>1</NavLink></li>
-                    <li><NavLink to='/products/2'>2</NavLink></li>
-                    <li><NavLink to='/products/3'>3</NavLink></li>
+                    <li><NavLink to='/products/1?name=Samsung&number=8'>1</NavLink></li>
+                    <li><NavLink to='/products/2?name=iPhone&number=7'>2</NavLink></li>
+                    <li><NavLink to='/products/3?name=LG&number=123'>3</NavLink></li>
                 </ul>
 
 
